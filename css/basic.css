@@ -1,0 +1,38 @@
+/*格式化*/
+body,header,nav,section,footer,div,li,ul,ol,h1,h2,h3,h4,img,a,input{
+	padding: 0;
+	margin: 0;
+}
+header,nav,article,section,aside,footer{
+	display:block;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+img,input{
+	border: none;
+}
+input{
+	outline-style: none;
+}
+/*公共部分*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	display: block;
+	content: '.';
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
